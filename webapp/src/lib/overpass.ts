@@ -1,4 +1,4 @@
-import type { Venue, VenueType, UserLocation } from "@/types/venue";
+import type { Venue, VenueType, UserLocation } from "../types/venue";
 
 // Multiple endpoints - Overpass can time out; try fallbacks
 const OVERPASS_ENDPOINTS = [
