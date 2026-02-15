@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Beer, Clock, Square } from "lucide-react";
-import { useVenueStore } from "@/store/useVenueStore";
-import { Button } from "@/components/ui/button";
+import { useVenueStore } from "../../store/useVenueStore";
+import { Button } from "../ui/button";
 
 interface CrawlIndicatorProps {
   onEndCrawl: () => void;
