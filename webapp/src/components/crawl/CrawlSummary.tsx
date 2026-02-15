@@ -1,6 +1,6 @@
 import { Beer, Clock, MapPin, Trophy } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import type { CrawlSession } from "@/types/venue";
+import { Button } from "../ui/button";
+import type { CrawlSession } from "../../types/venue";
 
 interface CrawlSummaryProps {
   crawl: CrawlSession;
